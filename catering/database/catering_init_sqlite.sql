@@ -216,7 +216,7 @@ CREATE TABLE Assignments (
     cook_id INTEGER DEFAULT 0
 );
 
-DROP TABLE IF EXISTS EventInstances;
+DROP TABLE IF EXISTS EventInstances; 
 CREATE TABLE EventInstances (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     event_id INTEGER NOT NULL,
